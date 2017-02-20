@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'font-awesome-rails'
 
+gem 'bootstrap-sass'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
