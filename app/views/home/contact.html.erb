@@ -1,0 +1,22 @@
+<% provide(:title, "Contact") %>
+
+
+<center>
+<h2>Contact</h2>
+
+<%= form_for User.new do |f| %>
+	<%= f.label :name %>
+	<%= f.text_field :name %>
+
+	<%= f.label :email %>
+	<%= f.text_field :email %>
+
+	<%= f.label :phone_number %>
+	<%= f.text_field :phone_number %>
+
+	<%= f.label :message %>
+	<%= f.text_area :message, id: "message_field" %>
+
+	<%= f.submit "Submit", id: 'submit_button' %>
+<% end %> 
+</center>

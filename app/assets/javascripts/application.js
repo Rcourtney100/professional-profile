@@ -15,13 +15,5 @@
 //= require turbolinks
 //= require_tree .
 
-$.fn.extend({
-    animateCss: function (animated_fadeInLeft) {
-        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-        this.addClass('animated ' + animated_fadeInLeft).one(animationEnd, function() {
-            $(this).removeClass('animated ' + animated_fadeInLeft);
-        });
-    }
-});
 
 $('#animated_fadeInLeft').animateCss('fadeInLeft');
