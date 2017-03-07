@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
+  get 'users/create'
+
+  get 'users/user_params'
+
+  get 'create/user_params'
+
   get 'home/about'
+
+  resources :users
 
   get 'home/index'
 

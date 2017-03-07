@@ -3,8 +3,24 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+
+.bio{
+  padding-top: 80px;
+  text-align: center;
+
+  h3{
+    font-family: 'Lobster', cursive;
+    color: #000066;
+  }
+  p{
+    font-family: 'Slabo 27px', serif;
+  }
+}
+
+
 .main-nav {
 	background-color: #000066;
+  font-family: 'Slabo 27px', serif;
 }
 
 body {
@@ -37,4 +53,8 @@ i {
   padding: 5px;
   padding-top: 10px;
 
+}
+
+i:hover {
+  color:#939393 !important;
 }
